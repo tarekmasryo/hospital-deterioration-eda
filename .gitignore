@@ -8,8 +8,9 @@ env/
 venv/
 ENV/
 
-# Local data (not committed)
-/data/raw/*.csv
+# Local data (keep folder, ignore files)
+data/raw/*
+!data/raw/README.md
 
 # Optional outputs (not committed)
 /artifacts/*.png

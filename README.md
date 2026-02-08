@@ -28,7 +28,7 @@ Required:
 
 See `data/raw/README.md`.
 
-If local files are not present, the notebook falls back to Kaggle input paths.
+If running on Kaggle and local files are not present, the notebook falls back to Kaggle input paths.
 
 ---
 
