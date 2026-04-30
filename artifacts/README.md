@@ -1,7 +1,11 @@
 # artifacts
 
-Optional outputs exported from the notebook (not committed by default).
+Optional notebook outputs can be exported here.
 
-Recommended:
-- save key figures (PNG) for your portfolio
-- export summary tables used in write-ups
+Suggested artifacts:
+
+- selected PNG figures for portfolio write-ups
+- summary tables used in reports
+- lightweight JSON/CSV diagnostics
+
+Generated artifacts are ignored by default unless explicitly added.

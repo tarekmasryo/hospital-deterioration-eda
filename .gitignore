@@ -4,18 +4,25 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
+
+# Virtual environments
+.venv/
 venv/
+env/
 ENV/
 
-# Local data (keep folder, ignore files)
+# Local data
 data/raw/*
 !data/raw/README.md
 
-# Optional outputs (not committed)
-/artifacts/*.png
-/artifacts/*.csv
-/artifacts/*.json
+# Optional outputs
+artifacts/*.png
+artifacts/*.csv
+artifacts/*.json
+!artifacts/README.md
 
-# Virtualenv
-.venv/
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
